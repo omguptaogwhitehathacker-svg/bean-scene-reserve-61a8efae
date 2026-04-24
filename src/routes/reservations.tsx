@@ -110,9 +110,9 @@ function ReservationsPage() {
               <div className="w-16 h-16 mx-auto rounded-full bg-primary/15 flex items-center justify-center mb-4">
                 <Check className="w-8 h-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-display mb-2">Reservation requested</h3>
+              <h3 className="text-2xl font-display mb-2">Almost there!</h3>
               <p className="text-muted-foreground">
-                We'll confirm your booking on WhatsApp within the hour.
+                Your email app should have opened with your reservation details. Just hit Send and we'll confirm shortly.
               </p>
             </div>
           ) : (
