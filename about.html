@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Roastery &amp; Co</title>
+  <meta name="description" content="The story behind Roastery & Co — a small Bangalore coffee house pouring single origin beans from Chikmagalur with care." />
+  <meta property="og:title" content="About — Roastery & Co" />
+  <meta property="og:image" content="assets/about-beans.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="brand">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" x2="6" y1="2" y2="4"/><line x1="10" x2="10" y1="2" y2="4"/><line x1="14" x2="14" y1="2" y2="4"/></svg>
+        <span>Roastery <span class="accent">&amp; Co</span></span>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        <a href="reservations.html">Reservations</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <svg class="icon-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        <svg class="icon-close" style="display:none" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="reservations.html">Reservations</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="parallax short" style="background-image:url('assets/about-beans.jpg')">
+      <div class="container" style="text-align:center">
+        <p class="eyebrow">Our Story</p>
+        <h1 class="page-title">From bean to <span class="text-gradient-warm">brew</span></h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="story">
+        <p>Roastery &amp; Co began in 2018 in a tiny corner of Indiranagar with one stubborn belief — that coffee deserves time. Time in the soil, time on the roaster, time in the cup, and most importantly, time with the people drinking it.</p>
+        <p>We work directly with smallholder farmers across Chikmagalur, Coorg and Sakleshpur — paying above-market prices for beans we believe in. Every harvest is cupped, scored and roasted in-house in small batches, never older than seven days when it reaches you.</p>
+        <p>Our space is intentionally dim — warm Edison bulbs, exposed brick, well-worn timber — because we wanted somewhere you could disappear for an afternoon, finish a chapter, close a deal, or fall in love over a flat white.</p>
+      </div>
+    </section>
+
+    <section style="padding:0 1rem 6rem">
+      <div class="inner stats" style="max-width:80rem;margin:0 auto">
+        <div class="glass-card stat"><p class="stat-num text-gradient-warm">07</p><p class="stat-label">Years brewing</p></div>
+        <div class="glass-card stat"><p class="stat-num text-gradient-warm">24</p><p class="stat-label">Partner farms</p></div>
+        <div class="glass-card stat"><p class="stat-num text-gradient-warm">1.2M</p><p class="stat-label">Cups poured</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <a href="index.html" class="brand">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><line x1="6" x2="6" y1="2" y2="4"/><line x1="10" x2="10" y1="2" y2="4"/><line x1="14" x2="14" y1="2" y2="4"/></svg>
+          <span>Roastery <span class="accent">&amp; Co</span></span>
+        </a>
+        <p class="muted" style="margin-top:0.75rem">A cozy speciality coffee house in the heart of Indiranagar, Bangalore — slow brewed, single origin, story driven.</p>
+      </div>
+      <div><h4>Visit</h4><p class="muted">12th Main, Indiranagar<br/>Bangalore 560038<br/>Open daily · 7am – 11pm</p></div>
+      <div><h4>Follow</h4><div class="socials"><a href="#">IG</a><a href="#">FB</a><a href="#">X</a></div></div>
+    </div>
+    <div class="copy">© <span id="year"></span> Roastery &amp; Co. Brewed with love in Bangalore.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
