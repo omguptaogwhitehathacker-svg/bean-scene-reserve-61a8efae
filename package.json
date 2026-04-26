@@ -1,0 +1,6 @@
+{
+  "name": "roastery-and-co-static",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML/CSS/JS site — no build step. Open index.html in a browser."
+}
